@@ -14,7 +14,7 @@ const SkillText = () => {
             >
                 <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
                 <h1 className='Welcome-text text-[13px]'>
-                    Think better with Next js 14
+                    using best development practices
                 </h1>
             </motion.div>
             <motion.div variants={slideInFromLeft(0.5)}

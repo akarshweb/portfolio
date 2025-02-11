@@ -89,10 +89,12 @@ export const Socials = [
     {
         name: "LinkedIn",
         src: "/linkedin.png",
+        link: "https://www.linkedin.com/in/akarshrnair/"
     },
     {
         name: "GitHub",
         src: "/gitwhite.png",
+        link: "https://github.com/akarshweb"
     },
 ];
 
