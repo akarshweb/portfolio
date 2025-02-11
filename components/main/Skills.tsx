@@ -53,17 +53,7 @@ const Skills = () => {
                     />
                 ))}
             </div>
-            <div className='flex flex-row justify-around flex-wrap mt-2 gap-4 items-center'>
-                {Other_skill.map((image, index) => (
-                    <SkillsDataProvider
-                        key={index}
-                        src={image.Image}
-                        width={image.width}
-                        height={image.height}
-                        index={index}
-                    />
-                ))}
-            </div>
+            
 
             <div className='w-full h-full absolute'>
                 <div className='w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover'>
