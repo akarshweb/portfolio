@@ -96,6 +96,11 @@ export const Socials = [
         src: "/gitwhite.png",
         link: "https://github.com/akarshweb"
     },
+    {
+        name: "Twitter",
+        src: "/twitter.png",
+        link: "https://x.com/akarshrnair"
+    },
 ];
 
 export const Frontend_skill = [
