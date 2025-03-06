@@ -69,7 +69,7 @@ const HeroContent = () => {
               transition: { duration: 0.4, ease: "easeInOut", delay: 0.2 },
             },
           }}
-          href="mailto:karshrnair@gmail.com?subject=Inquiry&body=Hi Akarsh,"
+          href="mailto:akarshrnair@gmail.com?subject=Inquiry&body=Hi Akarsh,"
           className="py-1 px-4 bg-purple-600 hover:bg-purple-700 transition-all duration-300 text-white text-lg text-center cursor-pointer rounded-lg max-w-[165px] mt-2"
         >
           Contact Me
