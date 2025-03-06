@@ -25,7 +25,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Social Icons (Moved to Top-Right Corner) */}
-                    <div className="hidden md:flex flex-row gap-5 absolute right-5 top-4">
+                    <div className="hidden md:flex flex-row gap-5 absolute right-10 top-4">
                         {Socials.map((social) => (
                             <a 
                                 key={social.name} 

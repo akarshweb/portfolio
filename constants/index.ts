@@ -66,12 +66,6 @@ export const Skill_data = [
         height: 80,
     },
     {
-        skill_name: "Stripe Payment",
-        Image: "/stripe.webp",
-        width: 80,
-        height: 80,
-    },
-    {
         skill_name: "Node js",
         Image: "/node-js.png",
         width: 80,
@@ -229,12 +223,6 @@ export const Full_stack = [
         Image: "/docker.webp",
         width: 70,
         height: 70,
-    },
-    {
-        skill_name: "Figma",
-        Image: "/figma.png",
-        width: 50,
-        height: 50,
     },
 ];
 
