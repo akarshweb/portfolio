@@ -24,24 +24,26 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    {/* Social Icons (Moved to Top-Right Corner) */}
-                    <div className="hidden md:flex flex-row gap-5 absolute right-10 top-4">
-                        {Socials.map((social) => (
-                            <a 
-                                key={social.name} 
-                                href={social.link} 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                            >
-                                <Image
-                                    src={social.src}
-                                    alt={social.name}
-                                    width={30}
-                                    height={30}
-                                />
-                            </a>
-                        ))}
-                    </div>
+                    {/* Social Icons (Fixed Top-Right) */}
+<div className="hidden md:flex flex-row gap-5 fixed top-5 right-6 z-50">
+    {Socials.map((social) => (
+        <a 
+            key={social.name} 
+            href={social.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            <Image
+                src={social.src}
+                alt={social.name}
+                width={28}
+                height={28}
+                className="hover:scale-110 transition-transform"
+            />
+        </a>
+    ))}
+</div>
+
 
                     {/* Mobile Menu Button */}
                     <button onClick={() => setIsOpen(true)} className="md:hidden text-white z-50">
